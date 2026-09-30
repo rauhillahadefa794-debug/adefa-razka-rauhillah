@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>MediVision AR — Piranti Interaktif Masa Depan</title>
+<style>
+:root{--bg:#f4f8fb;--card:#fff;--ink:#0f2233;--mut:#5a6f80;--acc:#0aa5a8;--acc2:#2563eb;--line:#dbe6ee;--hero:linear-gradient(135deg,#062a3b,#0b5c73 60%,#0aa5a8);box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0a1620;--card:#112432;--ink:#e7f1f7;--mut:#93a9b8;--line:#1e3a4d}}
+:root[data-theme="dark"]{--bg:#0a1620;--card:#112432;--ink:#e7f1f7;--mut:#93a9b8;--line:#1e3a4d}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-serif;line-height:1.65}
+.wrap{max-width:1000px;margin:0 auto;padding:0 20px}
+.hero{background:var(--hero);color:#fff;padding:64px 0 56px}
+.tag{display:inline-block;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.3);padding:4px 14px;border-radius:99px;font-size:13px;letter-spacing:.04em}
+h1{font-size:clamp(2rem,6vw,3.4rem);margin:16px 0 8px;line-height:1.15}
+.hero p{max-width:720px;color:#d5eef2;font-size:1.05rem}
+.alt{margin-top:18px;font-size:14px;color:#a9dfe4}
+.alt b{color:#fff}
+section{padding:44px 0 8px}
+h2{font-size:1.6rem;margin:0 0 6px;display:flex;align-items:center;gap:12px}
+h2 .n{background:var(--acc);color:#fff;width:34px;height:34px;border-radius:10px;display:grid;place-items:center;font-size:1rem}
+.sub{color:var(--mut);margin:0 0 22px}
+h3{margin:28px 0 12px;font-size:1.15rem;color:var(--acc)}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px;box-shadow:0 2px 10px rgba(10,40,60,.05)}
+.card h4{margin:10px 0 6px;font-size:1.02rem}
+.card p{margin:0;color:var(--mut);font-size:.95rem}
+.ic{font-size:1.8rem}
+.meta{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.meta div{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 18px}
+.meta small{color:var(--mut);display:block;font-size:12px;text-transform:uppercase;letter-spacing:.06em}
+.flow{display:flex;flex-wrap:wrap;align-items:stretch;gap:10px}
+.step{flex:1 1 220px;background:var(--card);border:1px solid var(--line);border-top:4px solid var(--acc);border-radius:14px;padding:18px}
+.step:nth-child(3){border-top-color:var(--acc2)}
+.step b{display:block;margin-bottom:6px}
+.step ul{margin:0;padding-left:18px;color:var(--mut);font-size:.93rem}
+.arrow{align-self:center;color:var(--acc);font-size:1.6rem}
+@media(max-width:700px){.arrow{display:none}}
+.bp{display:grid;gap:22px;grid-template-columns:1.2fr 1fr;align-items:start}
+@media(max-width:800px){.bp{grid-template-columns:1fr}}
+.svgbox{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:12px}
+.svgbox svg{width:100%;height:auto;display:block}
+.parts{display:grid;gap:12px}
+.part{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--acc);border-radius:12px;padding:14px 16px}
+.part h4{margin:0 0 6px}
+.part ul{margin:0;padding-left:18px;color:var(--mut);font-size:.93rem}
+.part li b{color:var(--ink)}
+footer{margin-top:48px;padding:26px 0;text-align:center;color:var(--mut);font-size:13px;border-top:1px solid var(--line)}
+</style>
+</head>
+<body>
+<header class="hero"><div class="wrap">
+  <span class="tag">Wearable Medical Technology · AR Healthcare</span>
+  <h1>MediVision AR</h1>
+  <p>Kacamata pintar berbasis Augmented Reality dan AI sebagai asisten <i>hands-free</i> tenaga medis: menampilkan rekam medis, menganalisis kondisi pasien, dan memandu tindakan secara real-time, tanpa memutus kontak mata dokter dengan pasien.</p>
+  <div class="alt">Nama alternatif: <b>VitaLens AI</b> · <b>AuraMed Glass</b></div>
+</div></header>
+
+<main class="wrap">
+<section>
+  <h2><span class="n">1</span>Ide Piranti</h2>
+  <p class="sub">Ringkasan konsep dan kemampuan utama.</p>
+  <div class="meta">
+    <div><small>Nama Piranti</small><b>MediVision AR</b></div>
+    <div><small>Kategori</small><b>Wearable Medical Tech / AR Healthcare</b></div>
+  </div>
+  <h3>Fitur Unggulan</h3>
+  <div class="grid">
+    <div class="card"><div class="ic">🧑‍⚕️</div><h4>Rekam Medis Instan</h4><p>Pengenalan wajah yang aman menampilkan rekam medis pasien seketika.</p></div>
+    <div class="card"><div class="ic">🤖</div><h4>Rekomendasi AI Generatif</h4><p>Analisis kondisi dasar secara visual dan saran pengobatan.</p></div>
+    <div class="card"><div class="ic">🩸</div><h4>Vein Mapping</h4><p>Pemetaan pembuluh darah untuk membantu injeksi dengan presisi.</p></div>
+    <div class="card"><div class="ic">🌡️</div><h4>Pencitraan Termal</h4><p>Mendeteksi inflamasi melalui kamera termal/inframerah.</p></div>
+    <div class="card"><div class="ic">🔬</div><h4>Panduan Bedah &amp; Pemulihan</h4><p>Panduan presisi real-time saat operasi dan fase pemulihan.</p></div>
+    <div class="card"><div class="ic">👁️</div><h4>Fokus pada Pasien</h4><p>Data diolah instan sehingga dokter tetap menjaga kontak mata.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2><span class="n">2</span>Cara Kerja &amp; Manfaat</h2>
+  <p class="sub">Alur dari masukan, pemrosesan, hingga keluaran.</p>
+  <h3>A. Cara Kerja Piranti</h3>
+  <div class="flow">
+    <div class="step"><b>📥 Input (Masukan)</b><ul>
+      <li><b>Gaze Tracking:</b> navigasi menu virtual hanya dengan gerakan mata.</li>
+      <li><b>Sensor &amp; Kamera Multi-Spektral:</b> termal, inframerah, dan RGB.</li>
+      <li><b>Voice Command:</b> mikrofon terarah mencatat keluhan ke rekam medis otomatis.</li></ul></div>
+    <div class="arrow">➜</div>
+    <div class="step"><b>⚙️ Processing</b><ul>
+      <li><b>Edge Computing</b> di gagang kacamata untuk pemrosesan instan.</li>
+      <li>Dikombinasikan dengan <b>Cloud</b> berenkripsi tinggi.</li></ul></div>
+    <div class="arrow">➜</div>
+    <div class="step"><b>📤 Output (Keluaran)</b><ul>
+      <li><b>Micro LED AR Waveguide:</b> lensa transparan memproyeksikan hologram data.</li>
+      <li><b>Bone Conduction:</b> notifikasi audio AI lewat getaran tulang telinga.</li></ul></div>
+  </div>
+
+  <h3>B. Manfaat bagi Masyarakat</h3>
+  <div class="grid">
+    <div class="card"><div class="ic">🛡️</div><h4>Keselamatan &amp; Kesehatan</h4><p>Mengurangi risiko malapraktik lewat peringatan AI real-time soal alergi dan interaksi obat.</p></div>
+    <div class="card"><div class="ic">🌍</div><h4>Aksesibilitas Tinggi</h4><p>Fitur tele-mentoring dan penerjemah bahasa real-time.</p></div>
+    <div class="card"><div class="ic">💙</div><h4>Kenyamanan Penggunaan</h4><p>Mengurangi kelelahan fisik dokter dan membuat interaksi lebih humanis.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2><span class="n">3</span>Model Kacamata</h2>
+  <p class="sub">Deskripsi visual blueprint (ilustrasi skematis).</p>
+  <div class="bp">
+    <div class="svgbox">
+      <svg viewBox="0 0 520 300" role="img" aria-label="Skema kacamata MediVision AR">
+        <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0aa5a8" stop-opacity=".35"/><stop offset="1" stop-color="#2563eb" stop-opacity=".25"/></linearGradient></defs>
+        <g fill="none" stroke="#0aa5a8" stroke-width="5" stroke-linecap="round">
+          <rect x="60" y="90" width="150" height="90" rx="26" fill="url(#g)"/>
+          <rect x="310" y="90" width="150" height="90" rx="26" fill="url(#g)"/>
+          <path d="M210 120 Q260 100 310 120"/>
+          <path d="M60 110 L22 100 L22 205"/>
+          <path d="M460 110 L498 100 L498 205"/>
+        </g>
+        <circle cx="260" cy="118" r="7" fill="#2563eb"/>
+        <circle cx="72" cy="100" r="6" fill="#f59e0b"/><circle cx="448" cy="100" r="6" fill="#f59e0b"/>
+        <rect x="14" y="140" width="16" height="30" rx="4" fill="#0aa5a8"/><rect x="490" y="140" width="16" height="30" rx="4" fill="#0aa5a8"/>
+        <rect x="16" y="196" width="12" height="16" rx="4" fill="#ef4444"/><rect x="492" y="196" width="12" height="16" rx="4" fill="#ef4444"/>
+        <path d="M236 180 q10 22 24 0 q14 22 24 0" fill="none" stroke="#8b5cf6" stroke-width="4"/>
+        <g font-size="13" fill="currentColor" font-family="Segoe UI,Arial,sans-serif" text-anchor="middle">
+          <text x="135" y="140">Lensa Micro-LED</text><text x="385" y="140">Waveguide Display</text>
+          <text x="260" y="66">① Kamera Depth/LiDAR (Bridge)</text><line x1="260" y1="72" x2="260" y2="108" stroke="#2563eb"/>
+          <text x="60" y="66">② Kamera Termal + Optik</text><line x1="72" y1="72" x2="72" y2="94" stroke="#f59e0b"/>
+          <text x="260" y="238">③ Sensor Biometrik (Nose Pad)</text><line x1="260" y1="200" x2="260" y2="224" stroke="#8b5cf6"/>
+          <text x="80" y="268">Gagang: kapasitif · Chip AI + Baterai · Bone Conduction</text>
+        </g>
+      </svg>
+    </div>
+    <div class="parts">
+      <div class="part"><h4>Bagian Depan / Bingkai</h4><ul>
+        <li><b>Lensa utama:</b> Micro-LED Waveguide Display dengan UI transparan.</li>
+        <li><b>Bridge:</b> kamera Depth/LiDAR mikro untuk memetakan anatomi pasien.</li>
+        <li><b>Sudut bingkai:</b> lensa ganda termal/inframerah dan optik.</li></ul></div>
+      <div class="part"><h4>Gagang Kacamata (Temple)</h4><ul>
+        <li><b>Depan:</b> area sentuh kapasitif untuk navigasi.</li>
+        <li><b>Tengah:</b> modul chip AI dan baterai solid-state.</li>
+        <li><b>Ujung belakang:</b> speaker bone conduction.</li></ul></div>
+      <div class="part"><h4>Bantalan Hidung (Nose Pad)</h4><ul>
+        <li>Sensor biometrik mendeteksi tingkat kelelahan dokter dari denyut nadi.</li></ul></div>
+    </div>
+  </div>
+  <div class="part">
+  <div>
+    <img src="1 (1).jpg" alt="Ilustrasi Kacamata MediVision AR" style="width:100%;border-radius:16px;margin-top:22px">
+    </div>  
+    <div>
+    <img src="1 (2).jpg" alt="Ilustrasi Kacamata MediVision AR" style="width:100%;border-radius:16px;margin-top:22px">
+  </div>
+  </div>
+</section>
+</main>
+<footer><div class="wrap">MediVision AR · Konsep Piranti Interaktif Masa Depan</div></footer>
+</body>
+</html>
